@@ -37,7 +37,8 @@ namespace Service {
 
         function addTodolist(string $todo): void
         {
-            $todolist = new \todolist($todo);
+
+            $todolist = new Todolist ($todo);
             $this->todolistRepository->save($todolist);
             echo "SUKSES MENAMBAH TODOLIST" . PHP_EOL;
         }
