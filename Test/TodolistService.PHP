@@ -1,7 +1,7 @@
 <?php
 
 require_once __DIR__ . "/../Entity/Todolist.php";
-require_once __DIR__ . "/../Repository/Todo_List_Repository.php";
+require_once __DIR__ . "/../Repository/TodolistRepository.php";
 require_once __DIR__ . "/../Service/TodolistService.php";
 
 use Entity\Todolist;
