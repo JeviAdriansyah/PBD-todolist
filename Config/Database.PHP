@@ -7,7 +7,7 @@ namespace Config {
         {
             $host = "localhost";
             $port = 3386;
-            $database = "belajar_php_todoList";
+            $database = "todolist";
             $username = "root";
             $password = "";
 
